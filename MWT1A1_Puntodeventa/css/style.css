@@ -1,0 +1,109 @@
+h1
+    { color: rgb(76, 13, 82); font-family: Verdana; }
+h2
+        { color: rgb(122, 22, 126); font-family: Verdana; }
+h3
+    { color: rgb(152, 42, 167); font-family: Verdana; }
+h4 
+    { color: rgb(165, 74, 153); font-family: Verdana; }
+
+body {color: rgb(0, 0, 0); font-family: Verdana;}
+
+li {
+        float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc47e4;
+}
+
+li a {
+    display: block;
+    color: rgb(49, 5, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(163, 75, 156);
+    color: rgb(193, 127, 224);
+}
+
+td, th{
+    background-color: rgb(144, 71, 185);
+    padding: 1px 1px;
+    border : 1px solid rgb(127, 25, 187);
+}
+
+footer {
+    position:center;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#999;
+}
+
+.wrap {
+	width: 50%;
+	max-width: 1000px;
+	/*margin:auto;*/
+}
+
+.widget {
+	width: 50%;
+	margin: 2em;
+	/*margin:32px; */
+}
+
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha {
+	font-family: Oswald, Arial;
+	text-align: center;
+	font-size:1.5em;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom: 5px;*/
+	background: rgb(218, 103, 238);
+	padding: 20px;
+	width: 100%;
+}
+
+.reloj {
+	font-family: Oswald, Arial;
+	width: 100%;
+	padding: 20px;
+	font-size: 4em;
+	text-align: center;
+	background:rgb(218, 103, 238);
+}
+
+.reloj .caja-segundos {
+	display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+	font-size: 2rem;
+	display: block;
+}
+
+.wrap1 {
+	width: 90%;
+	max-width: 1000px;
+	background:rgb(146, 114, 143);
+}
+
+.widget1 {
+	width: 50%;
+	margin: 2em;
+	background: rgb(116, 54, 124);
+}

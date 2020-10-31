@@ -1,0 +1,71 @@
+<html>
+	<head>
+    <title>Caja registradora</title>
+    <link rel="stylesheet" type="text/css" href="../css/style2.css" media="screen" />
+	</head>
+	<body>
+        
+        <form target="_self">
+            <div>
+                <h1>Catrina</h1>
+                <h3>Personaliza tu Catrina</h3>
+            </div>
+            <div>
+                <label for="categoria">Producto:</label>
+                    <select name="categoria" required>
+                        <option value="">Seleccione un producto …</option>
+                        <option value="Catrina">Catrina</option>
+
+                    </select>
+            </div>
+            
+
+
+            <div>
+                <label for="sabor">color:</label>
+                    <select name="sabor" required>
+                        <option value="">Seleccione un producto …</option>
+                        <option value="azul">Azul</option>
+                        <option value="rosa">Rosa</option>
+                        <option value="amarillo">Amarillo</option>
+                    </select>
+            </div>
+            
+            <div>
+                <label for="cantidad">Cantidad:</label>
+                <input name="cantidad" id="cantidad" class="input" type="number" min=1 max=100 required>
+            </div>
+
+            <div>
+                <input type="radio" name="size" id="small" value="pequeño" checked><label for="small">Pequeño</label>
+                <input type="radio" name="size" id="medium" value="mediano"><label for="medium">Mediano</label>
+                <input type="radio" name="size" id="big" value="grande"><label for="big">Grande</label>
+            </div>
+
+            <div>
+                <strong>Adornos:</strong><br>
+                <input type="checkbox" id="ctamales" name="ctamales" value="ctamales"><label for="ctamales">Canasta de tamales</label><br>
+                <input type="checkbox" id="rflores" name="rflores" value="rflores"><label for="rflores">Ramo de flores</label><br>
+                <input type="checkbox" id="casuelita" name="casuelita" value="casuelita"><label for="casuelita">Casuelita de barro</label><br>
+                <input type="checkbox" id="cflores" name="cflores" value="cflores"><label for="cflores">Canasta de flores</label><br>
+            </div>
+
+            <div>
+                <input type="submit" id="send-button" name="send-button" class="button">
+                <input type="reset" value="Borrar" class="button">
+            </div>
+        </form>
+            <div class="container" id="container">
+                <input type="button" id="finish" class="button" value="Completar Compra">
+            </div>
+    </body>
+    <footer>
+        <ul>
+            <li><a href="../html/index.html"><img src="../img/index.png" width="70" height="70" alt="facebook"> </a></li>
+            <li><a href="https://www.facebook.com/"><img src="../img/facebook.png" width="70" height="70" alt="facebook"></a></li>
+            <li><a href="#"><img src="../img/contacto1.png" width="70" height="70" alt="Contacto"></a></li>
+            <li><a href="#"><img src="../img/sobrenosotros.png" width="70" height="70" alt="Sobre nosotros"></a></li>
+            </ul>
+        </footer>
+    <script src="../js/punto_venta4.js"></script>
+</html>
